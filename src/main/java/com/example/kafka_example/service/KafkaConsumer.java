@@ -10,6 +10,6 @@ public class KafkaConsumer {
 
     @KafkaListener(topics = "user")
     public void consume(String message){
-        log.info("Kafka Consumer got message -> ", message);
+        log.info("Kafka Consumer got message -> " + message);
     }
 }
