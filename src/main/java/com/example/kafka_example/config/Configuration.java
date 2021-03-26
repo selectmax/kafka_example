@@ -8,6 +8,6 @@ public class Configuration {
 
     @Bean
     public NewTopic initTopic(){
-        return new NewTopic("user", 3, (short) 1);
+        return new NewTopic("user", 3, (short) 3);
     }
 }
